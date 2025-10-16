@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Introduction</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        #mypic{
+            padding-left: 100px;
+            width: 50%;
+            height: 500px;
+            width: 500px;
+        }
+        #mypic2 img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            /* border-radius: 50%; */
+            /* border: 5px solid rgb(162, 162, 162); */
+            height: 100vh;
+            width: 30vw;
+        }
+        p{
+            padding-left: 15px;
+            font-size:20px;
+        }
+        .introgreet{
+            height: 20px;
+        }
+        .introname{
+            font-family: "Oswald",sans-serif;
+            height: 30px;
+        }
+        .footer-socials{
+            width: 200px;
+            padding-top: 0px;
+            height: 100px;
+            align-items: center;
+        }
+        .but{
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar nosidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">About me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#" id="resumeBtn">Resume</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="intro-main">
+            <div class="hamburg">
+                <img class="ham" src="picture/ham2.png" alt="">
+                <img class="cross" src="picture/cross2.png" alt="">
+            </div>
+            <div id="mypic2">
+                <img src="picture/mypic3.jpeg" alt="Manan">
+            </div>
+            <div class="intro-info">
+                <h1>About me</h1>
+                <div class="introdiv">
+                <div class="introgreet">
+                    <h1>Hi,I am</h1>
+                </div> 
+                <div class="introname">
+                    <h1>Manan</h1>
+                </div>
+                <p>
+                    I am a 21 year old student living in my hometown,Dehradun. 
+                    Currently, I am persuing my Bachelor of Technology in Computer Science and Engineering from Graphic Era Hill University,Dehradun. 
+                    I have always enthustitic about learning new subjects as well as optimistic over the completition of the projects.
+                </p>
+                </div>
+                <div class="my-skl">
+                    <h2>My skills</h2>
+                    <p>I am well versed in programming languages of C,C++,Java,Python,SQL,along with Web Development (HTML,CSS,Javascript,ReactJS and PHP).Along with the above mentioned,I am also well versed in Machine Learning with the help of Python libraries</p>
+                </div>
+                    <div class="footer-socials">
+                        <div class="github but">
+                            <a href="/blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <div class="instagram but">
+                            <a href="/blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="linkeldn but">
+                            <a href="/blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <div class="twitter but">
+                            <a href="/blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                        <div class="youtube but">
+                            <a href="/blank"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>                
+            </div>  
+        </div>
+    </div>
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeResume">&times;</span>
+            <h2>My Resume</h2>
+            <iframe src="picture/ResumeUpdated.pdf" width="100%" height="600px"></iframe>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
