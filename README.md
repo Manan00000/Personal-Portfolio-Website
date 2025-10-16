@@ -1,6 +1,6 @@
 # Personal-Portfolio-Website
 Hello Reader,
-My name is Manan Bahuguna I am a student at graphic era hill university Dehradun ,currently persuing bachelor in Computer science. This text file gives my detailed account on personal portfolio website as a part of my virtual internship with dilwado.com .
+My name is Manan I am a student at graphic era hill university Dehradun ,currently persuing bachelor in Computer science. This text file gives my detailed account on personal portfolio website as a part of my virtual internship with dilwado.com .
 TIMELINE:
 week 1:The First week was spent creating the basic layout of the website with the help of HTML and CSS with different areas for navbar, and other files for contact info ,resume, blog page and about me.
 week 2: This week was spent on making the website responsive as well as being able to be used on other devices.
