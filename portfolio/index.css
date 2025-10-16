@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+
+    background-color: rgb(231, 227, 227);
+    margin: 0;
+    padding: 0;
+
+}
+/* for sidebar */
+.sidebar{
+    background-color: rgb(162,162,162);
+    font-family: "Oswald", sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav {
+    padding: 40px;
+    background-color: rgb(162, 162, 162);
+}
+/* p{
+    background-color: rgb(162, 162, 162);
+    color: aliceblue;
+} */
+.sidebar li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    background-color: rgb(162, 162, 162);
+    color: aliceblue;
+    width:100%;
+}
+/* for index.html */
+.main{
+    /* background-color: yellow; */
+    color: black;
+    height: 600px;
+    align-items: center;
+    /* width: 85vw; */
+}
+.container{
+    display: flex;
+}
+.myinfo{
+    /* background-color: red; */
+    height:75vh;
+    /* width:80vw; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 430px;
+}
+#mananinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Epunda Slab",sans-serif;
+}
+#mypic{
+    padding-top: 15%;
+    padding-left: 50px;
+}
+#mypic img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 5px solid rgb(162, 162, 162);
+    height: 300px;
+    width: 300px;
+    box-shadow: -10px 20px 10px 5px rgba(162, 162, 162, 0.6);
+}
+#hello
+{
+font-size: 65px;
+}
+#myname
+{
+    font-size: 50px;
+    text-align: center;
+}
+#name{
+    font-weight: 700;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+}
+#about
+{
+    font-size: 25px;
+    text-align: center;
+}
+.buttons{
+    padding-left: 75px;
+    padding-top: 30px;
+}
+.buttons button{
+    padding: 9px 20px;
+    border-radius: 22px;
+    font-family: "Epunda Slab",sans-serif;
+    background-color: rgb(162, 162, 162);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(203, 203, 203);
+}
+/* sidebar pt2 */
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(162, 162, 162);
+}
+.sidebar li a:hover{
+    cursor: pointer;
+}
+.nosidebar{
+    transform: translate(-433px,0px);
+    position:absolute;
+    /* transition: transform 0.3s ease-out; */
+}
+/* for contact me page */
+.contactmain{
+    /* background-color: blue; */
+    align-items: center;
+    display:flex;
+    padding-left: 30%;
+    padding-top: 100px;
+    /* height: 500px;
+    width: 500px; */
+}
+.contactinfo{
+    font-family: "Oswald",sans-serif;
+    text-align: center;
+    border-radius: 2%;
+    height: 400px;
+    width: 500px;
+    /* padding-top:20% */
+    align-content: center;
+}
+/* .contactinfo *{
+    background-color: cadetblue;
+} */
+.contactinfo h1{
+    font-family: "Epunda Slab",sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#con-info-msg{
+    font-size: small;
+}
+.form-label{
+    padding-right: 10px;
+}
+.form-control{
+    padding-left: 5px;
+    height: 30px;
+    /* border-radius: 5%; */
+    font-family:"Oswald",sans-serif;
+    width: 200px;
+}
+.form-control input{
+    padding-bottom: 10px;
+}
+#email-label{
+    padding-left: 5px;
+}
+.sub-btn-primary{
+    padding: 9px 20px;
+    border-radius: 22px;
+    font-family: "Epunda Slab",sans-serif;
+    background-color: rgb(162, 162, 162);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.sub-btn-primary:hover{
+    background-color: rgb(203, 203, 203);
+}
+#user-name-label{
+    padding-left: 17px;
+}
+#user-name input{
+    width: 200px;
+}
+.mb-3{
+    padding-bottom: 10px;
+}
+.mb-3 input{
+    background-color: rgb(231, 227, 227);
+    border-top: 0px rgb(231, 227, 227);
+    border-left: 0px rgb(231, 227, 227);
+    border-right: 0px rgb(231, 227, 227);
+    /* border: 1px solid black; */
+}
+.mb-3 textarea{
+    background-color: rgb(231, 227, 227);
+    border-top: 0px rgb(231, 227, 227);
+    border-left: 0px rgb(231, 227, 227);
+    border-right: 0px rgb(231, 227, 227);
+    /* border: 1px solid black; */
+}
+.fs-description{
+    font-size: small;
+    padding: 0px;
+    margin:0px
+}
+/* for blog page  */
+.blog-main{
+    width: 100%;
+}
+.blog-info{
+    margin-left: 30px;
+}
+.blog-info h1{
+    align-items: center;
+    text-align: center;
+    font-family:"Oswald",sans-serif;
+    padding-bottom: 20px;
+}
+.blog-item h2{
+    font-family:"Oswald",sans-serif;
+}
+.blog-item p{
+    padding-bottom: 5px;
+}
+.blog-item{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Epunda Slab",sans-serif;
+}
+.blog-img{
+    height: 300px;
+}
+/* for about me page */
+.intro-info p{
+    font-family: "Epunda Slab",sans-serif;
+}
+.intro-main{
+    display: flex;
+}
+.intro-info{
+    padding-left: 10px;
+    margin-left: 30px;
+    padding-top: 5%;
+}
+.intro-info h1{
+    padding-left: 10px;
+    font-family:"Oswald",sans-serif;
+    padding-bottom: 20px;
+}
+.my-skl{
+    padding-left: 10px;
+    height: 100px;
+}
+.my-skl h2{
+    font-family:"Oswald",sans-serif;
+    /* padding-top: 20px;
+    padding-bottom: 10px; */
+}
+.introdiv{
+    font-family:"Epunda Slab",sans-serif
+}
+/* for footer */
+#initials-text{
+    background-color: rgb(231, 227, 227);
+    color: rgb(231, 227, 227);
+    font-family: "Pixelify Sans",sans-serif;
+    text-align: center;
+}
+footer{
+    height: 125px;
+    text-align: center;
+    font-family: "Pixelify Sans",sans-serif;
+}
+.footer-socials{
+text-align: center;
+background-color: rgb(231,227,227);
+color: #f7f7ff;
+height: 100px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+/* border-bottom: 1px solid rgb(231, 227, 227); */
+}
+.but{
+    height: 50px;
+    width:50px;
+    border:1px solid rgb(231, 227, 227);
+    border-radius:50%;
+    background-color: rgb(231, 227, 227);
+    margin-top: 10px;
+}
+.but i{
+    color:rgb(162,162,162);
+    font-size:40px;
+    margin-top: 10px;
+    background-color: rgb(231, 227, 227);
+}
+.but a{
+    height: 100px;
+    width:100px;
+}
+/* for project page */
+.project-main{
+    width: 100%;
+}
+.project-main h3{
+    font-family:"Oswald",sans-serif;
+}
+.projectheading{
+    text-align: center;
+    font-family:"Oswald",sans-serif;
+    width:100%;
+}
+.pro{
+    height: 250px;
+    width:100%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pro img{
+    border-radius: 10px;
+    border: 3px solid rgb(162, 162, 162);
+    width: 30%;
+}
+.desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Epunda Slab",sans-serif;
+    width:40%;
+}
+.project2{
+    padding-left: 25%;
+    text-align: right;
+}
+/* ham and cross */
+.hamburg{
+    position: absolute;
+    padding-top: 10px;
+    left: 10px;
+    /* background-color: rgb(162, 162, 162); */
+}
+.ham{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    /* background-color: rgb(162, 162, 162); */
+}
+.cross{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(162, 162, 162);
+    margin-left: 175px;
+    cursor: pointer;
+}
+@media(max-width:786px)
+{
+    #myname{
+        font-size: 30px;
+    }
+    .myinfo{
+        padding-left: 50px;
+    }
+    #mypic{
+        display: none;
+    }
+    .footer-socials{
+        height: 75px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .but{
+        height: 70px;
+        width: 70px;
+    }
+    .but i{
+        font-size:40px;
+        margin-top: 15px;
+    }
+    .but a{
+        height: 50px;
+        width:50px;
+    }
+    .contactmain{
+        padding-left: 10%;
+        padding-top: 50px;
+    }
+    #hello{
+    font-size: 40px;
+    text-align: center;
+    }
+}
+/* for resume */
+/* Modal background */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal box */
+.modal-content {
+  background: rgb(231, 227, 227);
+  padding: 20px;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 10px;
+  position: relative;
+  font-family:"Oswald",sans-serif;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(162, 162, 162);
+  cursor: pointer;
+}
